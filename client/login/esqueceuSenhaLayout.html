@@ -1,0 +1,17 @@
+<template name="esqueceuSenhaLayout">
+    {{#if resetPassword}}
+        <form action="action" id="nova-senha">
+            <div>
+                <input type="text" id="nova-senha" />
+                <input type="submit" value="Alterar Senha"/>
+            </div>
+        </form>
+    {{else}}
+        <form action="" id="recuperar-senha">
+            <div>
+                <input type="text" id="email">
+                <input type="submit" value="Enviar Email" title="Envia email com instruções">
+            </div>
+        </form>
+    {{/if}}
+</template>

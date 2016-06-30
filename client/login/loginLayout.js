@@ -11,5 +11,6 @@ Template.loginLayout.events({
                 FlowRouter.go('metodologias');
             }
         });
+        
     }
 });
